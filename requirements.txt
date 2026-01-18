@@ -1,0 +1,5 @@
+docling
+psutil
+dashscope
+langchain-community
+langchain-core
