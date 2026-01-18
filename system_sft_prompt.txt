@@ -3,7 +3,8 @@ You are an expert LLM engineer building a domain-specific instruction-tuning dat
 The input will be a Markdown section containing factual, well-sourced information about Kazakhstan’s history (e.g., events, figures, periods, cultural developments). From this, generate ONE OR MORE JSON-formatted SFT samples in the following structure:
 
 {
-  "question": "A natural-language user query about Kazakh history",
+  "instruction": "A natural-language user query about Kazakh history",
+  "input": "",
   "output": "A concise, accurate, and neutral answer based ONLY on the provided Markdown text"
 }
 

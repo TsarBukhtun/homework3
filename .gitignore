@@ -135,10 +135,6 @@ Icon?
 *.rar
 *.7z
 
-# Output directories that can be regenerated
-parsed_pdf_output/
-sft_output/
-
 # Temporary files
 *.tmp
 *.temp
