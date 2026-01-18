@@ -95,7 +95,7 @@ def create_sft_dataset_with_langchain(input_path: str, output_path: str, system_
                 # Filter valid samples
                 valid_samples = [
                     s for s in result
-                    if isinstance(s, dict) and "question" in s and "output" in s
+                    if isinstance(s, dict) and "instruction" in s and "output" in s
                 ]
                 all_samples.extend(valid_samples)
                 print(f"  → Got {len(valid_samples)} valid samples (total: {len(all_samples)})")
